@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+        <title>Photo</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+    :root {
+        --primary-color: #9C410B;
+        --secondary-color: #f5f2fe;
+        --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .photo-buttons {
+          display: flex;
+        justify-content: space-evenly;
+      
+    }
+
+    .personal {
+        border: 0.6px solid var(--primary-color);
+        padding: 10px;
+        margin: 20px;
+        border-radius: 4px;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    #contact-link {
+        background: var(--secondary-color);
+        box-shadow: var(--box-shadow);
+    }
+
+    #homepage-link {
+        background: var(--secondary-color);
+        box-shadow: var(--box-shadow);
+    }
+
+      a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: none;
+         color: #9C410B;}
+
+
+</style>
+<body>
+    <div class="photo">
+    <h1>A picture of a 🥐 Croissant 🥐</h1>
+    <br />
+    <img src="images/Croissant.jpg" alt="Croissant" />
+<div class="photo-buttons">
+    <div class="personal" id="contact-link">
+        <a href="contact.html" class="link"> Contact me </a>
+    </div>
+            <div class="personal" id="homepage-link">
+            <a href="/"> Homepage </a>
+        </div>
+        </div>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <title>Croissant</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+         :root {
+        --primary-color: #9C410B;
+        --secondary-color: #f5f2fe;
+        --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .index-buttons {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .personal {
+        border: 0.6px solid var(--primary-color);
+        padding: 10px;
+        margin: 20px;
+        border-radius: 4px;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      .index {
+        text-align: center;
+      }
+
+      #contact-link {
+        background: var(--secondary-color);
+        box-shadow: var(--box-shadow);
+      }
+      #photo-link {
+        background: var(--secondary-color);
+        box-shadow: var(--box-shadow);
+      }
+
+      a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: none;
+         color: #9C410B;
+      }
+
+      .link {
+        color: white;
+      }
+      p{text-align: center;}
+</style>
+
+<body>
+    <div class="index">
+    <h1 class="mb-5" > 🥐 Croissant 🥐 </h1>
+      <p>
+    A croissant is a crescent shaped roll made with yeast-risen dough.
+    
+    The dough is typically layered with butter, then rolled, and folded several times in a process called lamination. The
+    final dough is cut into triangles and rolled into a crescent shape.The process of lamination results in a layered, flaky
+    textured roll, more like puff pastry.
+    
+    The main ingredients in a croissant are flour, yeast, salt, sugar, milk, water, eggs and butter.
+    
+    A well baked croissant should be flaky and crisp on the outside and tender and moist on the inside. It should be evenly
+    baked and well aerated.
+    </p>
+<div class="index-buttons">
+    <div class="personal" id="contact-link">
+        <a href="contact.html" class="link"> Contact me </a>
+    </div>
+    <div class="personal" id="photo-link">
+        <a href="photo.html"> Photo </a>
+
+    </div>
+</body>
+
+</html>
